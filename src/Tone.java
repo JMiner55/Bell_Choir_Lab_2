@@ -29,7 +29,7 @@ public class Tone
 				
 				if (br.readLine() == null)
 				{
-					System.err.println("Error: Invalid File. File is Blank!");
+					System.err.println("Error: File is Blank!");
 					error = true;
 				}
 				else
@@ -89,6 +89,10 @@ public class Tone
 								n = Note.valueOf(fields[0]);
 							}
 							else if (fields[0].equals("A5"))
+							{
+								n = Note.valueOf(fields[0]);
+							}
+							else if (fields[0].equals("REST"))
 							{
 								n = Note.valueOf(fields[0]);
 							}
@@ -153,7 +157,7 @@ public class Tone
 
 	public static void main(String[] args) throws Exception
 	{
-		System.out.println("Main running");
+		//System.out.println("Main running");
 		final AudioFormat af = new AudioFormat(Note.SAMPLE_RATE, 8, 1, true, false);
 		Tone t = new Tone(af);
 		List<BellNote> song = null;
@@ -166,13 +170,16 @@ public class Tone
 				song = loadSong(args[i]);
 				break;
 			}
+			if (song != null)
+			{
+				t.playSong(song);
+			}
+			else
+			{
+				System.err.println("Error: Invalid File.");
+				break;
+			}
 		}
-		if (song != null)
-		{
-			t.playSong(song);
-		}
-		else
-			System.err.println("Error: Invalid File.");
 	}
 
 	private final AudioFormat af;

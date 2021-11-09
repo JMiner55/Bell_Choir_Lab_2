@@ -59,7 +59,8 @@ public class Player implements Runnable
 			if (myTurn)
 			{
 				throw new IllegalStateException(
-						"Attempt to give a turn to a player who's hasn't completed the current turn");
+						"Attempt to give a turn to a player who's "
+						+ "hasn't completed the current turn");
 			}
 			myTurn = true;
 			notify();
@@ -99,7 +100,7 @@ public class Player implements Runnable
 				doTurn();
 				turnCount++;
 
-				// Done, complete turn and wakeup the waiting process
+				// Done, complete turn and wake-up the waiting process
 				myTurn = false;
 				notify();
 			}
