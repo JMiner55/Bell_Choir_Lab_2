@@ -41,9 +41,6 @@ public class Player implements Runnable
 	private volatile boolean running;
 	private boolean myTurn;
 	private int turnCount;
-	
-	private static final int NUM_PLAYERS = 14;
-	private List<Note> player_Bellnote = new ArrayList<>();
 
 	Player(State myJob)
 	{
@@ -51,26 +48,6 @@ public class Player implements Runnable
 		turnCount = 1;
 		t = new Thread(this, myJob.name());
 		t.start();
-		
-		for (int i = 0; i < NUM_PLAYERS; i++)
-		{
-			player_Bellnote.add(Note.A4);
-			player_Bellnote.add(Note.A4S);
-			player_Bellnote.add(Note.A5);
-			player_Bellnote.add(Note.B4);
-			player_Bellnote.add(Note.C4);
-			player_Bellnote.add(Note.C4S);
-			player_Bellnote.add(Note.D4);
-			player_Bellnote.add(Note.D4S);
-			player_Bellnote.add(Note.E4);
-			player_Bellnote.add(Note.F4);
-			player_Bellnote.add(Note.F4S);
-			player_Bellnote.add(Note.G4);
-			player_Bellnote.add(Note.G4S);
-			player_Bellnote.add(Note.REST);
-		}
-		System.out.println(player_Bellnote.size());
-		
 	}
 
 	public void stopPlayer()
