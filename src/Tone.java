@@ -13,6 +13,8 @@ import javax.sound.sampled.SourceDataLine;
 
 /**
  * @author Jason Miner
+ * 
+ * plays song by 
  *
  */
 public class Tone

@@ -1,6 +1,11 @@
-import java.util.ArrayList;
-import java.util.List;
 
+/**
+ * @author Jason Miner
+ * 
+ * Player class that was provided by Professor Nate Williams through Moodle.
+ * 
+ * creates a player that plays notes. 
+ */
 public class Player implements Runnable
 {
 	private static final int NUM_TURNS = 5;
@@ -11,6 +16,7 @@ public class Player implements Runnable
 	}
 
 	State state;
+
 
 	public static void main(String[] args)
 	{
@@ -42,6 +48,9 @@ public class Player implements Runnable
 	private boolean myTurn;
 	private int turnCount;
 
+	/**
+	 * @param myJob
+	 */
 	Player(State myJob)
 	{
 		this.myJob = myJob;
@@ -50,11 +59,17 @@ public class Player implements Runnable
 		t.start();
 	}
 
+	/**
+	 * 
+	 */
 	public void stopPlayer()
 	{
 		running = false;
 	}
 
+	/**
+	 * 
+	 */
 	public void giveTurn()
 	{
 		synchronized (this)
@@ -80,6 +95,9 @@ public class Player implements Runnable
 		}
 	}
 
+	/**
+	 *
+	 */
 	public void run()
 	{
 		running = true;
@@ -111,6 +129,9 @@ public class Player implements Runnable
 		}
 	}
 
+	/**
+	 * 
+	 */
 	private void doTurn()
 	{
 		System.out.println("Player[" + myJob.name() + "] taking turn " + turnCount);
