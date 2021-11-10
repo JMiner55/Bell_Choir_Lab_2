@@ -11,8 +11,16 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.SourceDataLine;
 
+/**
+ * @author Jason Miner
+ *
+ */
 public class Tone
 {
+	/**
+	 * @param filename
+	 * @return
+	 */
 	private static List<BellNote> loadSong(String filename)
 	{
 		final List<BellNote> song = new ArrayList<>();
@@ -155,6 +163,10 @@ public class Tone
 		return song;
 	}
 
+	/**
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception
 	{
 		//System.out.println("Main running");
@@ -184,11 +196,18 @@ public class Tone
 
 	private final AudioFormat af;
 
+	/**
+	 * @param af
+	 */
 	Tone(AudioFormat af)
 	{
 		this.af = af;
 	}
 
+	/**
+	 * @param song
+	 * @throws LineUnavailableException
+	 */
 	void playSong(List<BellNote> song) throws LineUnavailableException
 	{
 		try (final SourceDataLine line = AudioSystem.getSourceDataLine(af))
@@ -204,6 +223,10 @@ public class Tone
 		}
 	}
 
+	/**
+	 * @param line
+	 * @param bn
+	 */
 	private void playNote(SourceDataLine line, BellNote bn)
 	{
 		final int ms = Math.min(bn.length.timeMs(), Note.MEASURE_LENGTH_SEC * 1000);
@@ -213,11 +236,19 @@ public class Tone
 	}
 }
 
+/**
+ * @author User
+ *
+ */
 class BellNote
 {
 	final Note note;
 	final NoteLength length;
 
+	/**
+	 * @param note
+	 * @param length
+	 */
 	BellNote(Note note, NoteLength length)
 	{
 		this.note = note;
@@ -225,23 +256,37 @@ class BellNote
 	}
 }
 
+/**
+ * @author User
+ *
+ */
 enum NoteLength
 {
 	WHOLE(1.0f), HALF(0.5f), QUARTER(0.25f), EIGTH(0.125f);
 
 	private final int timeMs;
 
+	/**
+	 * @param length
+	 */
 	private NoteLength(float length)
 	{
 		timeMs = (int) (length * Note.MEASURE_LENGTH_SEC * 1000);
 	}
 
+	/**
+	 * @return
+	 */
 	public int timeMs()
 	{
 		return timeMs;
 	}
 }
 
+/**
+ * @author User
+ *
+ */
 enum Note
 {
 	// REST Must be the first 'Note'
@@ -258,6 +303,9 @@ enum Note
 
 	private final byte[] sinSample = new byte[MEASURE_LENGTH_SEC * SAMPLE_RATE];
 
+	/**
+	 * 
+	 */
 	private Note()
 	{
 		int n = this.ordinal();
@@ -277,6 +325,9 @@ enum Note
 		}
 	}
 
+	/**
+	 * @return
+	 */
 	public byte[] sample()
 	{
 		return sinSample;
