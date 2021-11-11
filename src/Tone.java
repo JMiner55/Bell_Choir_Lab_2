@@ -15,15 +15,14 @@ import javax.sound.sampled.SourceDataLine;
  * @author Jason Miner
  * 
  *         Tone class that was provided by Professor Nate Williams through
- *         Moodle. 
- *         Plays songs from text files though the use of ant arguments.
+ *         Moodle. Plays songs from text files though the use of ant arguments.
  * 
  */
 public class Tone
 {
 	/**
-	 * @param filename
-	 * @return
+	 * Loads the song from a text file and changes the strings into the actual Note
+	 * and NoteLegnth that can be added to the BellNote List.
 	 */
 	private static List<BellNote> loadSong(String filename)
 	{
@@ -168,8 +167,7 @@ public class Tone
 	}
 
 	/**
-	 * @param args
-	 * @throws Exception
+	 * main method that runs the class to actually play the music.
 	 */
 	public static void main(String[] args) throws Exception
 	{
@@ -201,7 +199,7 @@ public class Tone
 	private final AudioFormat af;
 
 	/**
-	 * @param af
+	 * sets the tone of the music.
 	 */
 	Tone(AudioFormat af)
 	{
@@ -209,8 +207,7 @@ public class Tone
 	}
 
 	/**
-	 * @param song
-	 * @throws LineUnavailableException
+	 * Plays all the notes to create a song.
 	 */
 	void playSong(List<BellNote> song) throws LineUnavailableException
 	{
@@ -228,8 +225,7 @@ public class Tone
 	}
 
 	/**
-	 * @param line
-	 * @param bn
+	 * plays the music note.
 	 */
 	private void playNote(SourceDataLine line, BellNote bn)
 	{
@@ -241,8 +237,7 @@ public class Tone
 }
 
 /**
- * @author User
- *
+ * Class for combining Note and NoteLegnth to create a BellNote.
  */
 class BellNote
 {
@@ -250,8 +245,7 @@ class BellNote
 	final NoteLength length;
 
 	/**
-	 * @param note
-	 * @param length
+	 * Creates the actual BellNote by combining the Note and NoteLength.
 	 */
 	BellNote(Note note, NoteLength length)
 	{
@@ -261,8 +255,7 @@ class BellNote
 }
 
 /**
- * @author User
- *
+ * Class for the note length.
  */
 enum NoteLength
 {
@@ -271,7 +264,7 @@ enum NoteLength
 	private final int timeMs;
 
 	/**
-	 * @param length
+	 * Creates the actual note lengths using timeMs and Math.
 	 */
 	private NoteLength(float length)
 	{
@@ -279,7 +272,7 @@ enum NoteLength
 	}
 
 	/**
-	 * @return
+	 * Returns time in milliseconds
 	 */
 	public int timeMs()
 	{
@@ -288,8 +281,7 @@ enum NoteLength
 }
 
 /**
- * @author User
- *
+ * Class for the notes.
  */
 enum Note
 {
@@ -308,7 +300,7 @@ enum Note
 	private final byte[] sinSample = new byte[MEASURE_LENGTH_SEC * SAMPLE_RATE];
 
 	/**
-	 * 
+	 * sets the actual notes through frequencies
 	 */
 	private Note()
 	{
@@ -330,7 +322,7 @@ enum Note
 	}
 
 	/**
-	 * @return
+	 * creates a byte sample.
 	 */
 	public byte[] sample()
 	{
