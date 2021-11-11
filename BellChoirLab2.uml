@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_iKRI4EMtEeye6rzg8ouruQ" name="BellChoirLab2">
+    <eAnnotations xmi:id="_jNcdIEMtEeye6rzg8ouruQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_jNcdIUMtEeye6rzg8ouruQ" source="codegen">
+        <details xmi:id="_jNcdIkMtEeye6rzg8ouruQ" key="codegenDirectory" value="/BellChoirLab2/src"/>
+        <details xmi:id="_jn7ZsEMtEeye6rzg8ouruQ" key="AssociatedSourceCode" value="/BellChoirLab2/src/Player.java;1930845696/1;/BellChoirLab2/src/Tone.java;195947520/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_jaKDcEMtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_jaKDcUMtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_jaKDckMtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_jaKDc0MtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_jaKDdEMtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_jaKDdUMtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_jaKqgEMtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_jaKqgUMtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_jaKqgkMtEeye6rzg8ouruQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jZ2hcEMtEeye6rzg8ouruQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jZ3IgEMtEeye6rzg8ouruQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jbOacEMtEeye6rzg8ouruQ" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jbPokEMtEeye6rzg8ouruQ" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jbQ2sEMtEeye6rzg8ouruQ" name="FileNotFoundException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jbRdwUMtEeye6rzg8ouruQ" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jbSE0UMtEeye6rzg8ouruQ" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jZ3IgUMtEeye6rzg8ouruQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jbTS8EMtEeye6rzg8ouruQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jbT6AUMtEeye6rzg8ouruQ" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_jbe5IEMtEeye6rzg8ouruQ" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_jbe5IUMtEeye6rzg8ouruQ" name="Runnable"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jbjxoEMtEeye6rzg8ouruQ" name="Thread"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jbpRMEMtEeye6rzg8ouruQ" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jZ3vkEMtEeye6rzg8ouruQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jZ3vkUMtEeye6rzg8ouruQ" name="sound">
+        <packagedElement xmi:type="uml:Package" xmi:id="_jZ3vkkMtEeye6rzg8ouruQ" name="sampled">
+          <packagedElement xmi:type="uml:Class" xmi:id="_jbVIIUMtEeye6rzg8ouruQ" name="AudioFormat"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jbVvMUMtEeye6rzg8ouruQ" name="AudioSystem"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jbWWQUMtEeye6rzg8ouruQ" name="LineUnavailableException"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_jbW9UUMtEeye6rzg8ouruQ" name="SourceDataLine"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jaGZEEMtEeye6rzg8ouruQ" name="Player">
+      <ownedComment xmi:id="_jcGkMEMtEeye6rzg8ouruQ">
+        <body>@author Jason Miner&#xD;
+&#xD;
+        Player class that was provided by Professor Nate Williams through&#xD;
+        Moodle.&#xD;
+        creates players that will play notes in in the Tone Class.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_jbvX0EMtEeye6rzg8ouruQ" name="NUM_TURNS" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_jbv-4EMtEeye6rzg8ouruQ" value="5"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jbv-4UMtEeye6rzg8ouruQ" name="state" visibility="package" type="_jaL4oEMtEeye6rzg8ouruQ"/>
+      <ownedAttribute xmi:id="_jbwl8UMtEeye6rzg8ouruQ" name="myJob" visibility="private" isLeaf="true" type="_jaL4oEMtEeye6rzg8ouruQ" isReadOnly="true"/>
+      <ownedAttribute xmi:id="_jbxNAUMtEeye6rzg8ouruQ" name="t" visibility="private" isLeaf="true" type="_jbjxoEMtEeye6rzg8ouruQ" isReadOnly="true" association="_jcK1oEMtEeye6rzg8ouruQ"/>
+      <ownedAttribute xmi:id="_jbx0EEMtEeye6rzg8ouruQ" name="running" visibility="private">
+        <eAnnotations xmi:id="_jbx0EUMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_jbx0EkMtEeye6rzg8ouruQ" key="volatile"/>
+        </eAnnotations>
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jbx0FEMtEeye6rzg8ouruQ" name="myTurn" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_jbybIUMtEeye6rzg8ouruQ" name="turnCount" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_jbjKkEMtEeye6rzg8ouruQ" client="_jaGZEEMtEeye6rzg8ouruQ" supplier="_jbe5IUMtEeye6rzg8ouruQ" contract="_jbe5IUMtEeye6rzg8ouruQ"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcAdkEMtEeye6rzg8ouruQ" name="main" specification="_jaNt0EMtEeye6rzg8ouruQ">
+        <ownedParameter xmi:id="_jcAdkUMtEeye6rzg8ouruQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jcAdkkMtEeye6rzg8ouruQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// Create all the players, and give each a turn&#xD;
+		final int numStates = State.values().length;&#xD;
+&#xD;
+		Player[] players = new Player[numStates];&#xD;
+		for (State s : State.values())&#xD;
+		{&#xD;
+			players[s.ordinal()] = new Player(s);&#xD;
+		}&#xD;
+&#xD;
+		for (int i = 0; i &lt; NUM_TURNS; i++)&#xD;
+		{&#xD;
+			for (Player p : players)&#xD;
+			{&#xD;
+				p.giveTurn();&#xD;
+			}&#xD;
+		}&#xD;
+		for (Player p : players)&#xD;
+		{&#xD;
+			p.stopPlayer();&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcDg4EMtEeye6rzg8ouruQ" name="Player" specification="_jbNMUEMtEeye6rzg8ouruQ">
+        <ownedParameter xmi:id="_jcDg4UMtEeye6rzg8ouruQ" name="myJob" type="_jaL4oEMtEeye6rzg8ouruQ"/>
+        <ownedParameter xmi:id="_jcDg4kMtEeye6rzg8ouruQ" type="_jaGZEEMtEeye6rzg8ouruQ" direction="return"/>
+        <language>java</language>
+        <body>this.myJob = myJob;&#xD;
+		turnCount = 1;&#xD;
+		t = new Thread(this, myJob.name());&#xD;
+		t.start();&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcDg40MtEeye6rzg8ouruQ" name="stopPlayer" specification="_jaQxIEMtEeye6rzg8ouruQ">
+        <language>java</language>
+        <body>running = false;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcDg5EMtEeye6rzg8ouruQ" name="giveTurn" specification="_jaRYMEMtEeye6rzg8ouruQ">
+        <language>java</language>
+        <body>synchronized (this)&#xD;
+		{&#xD;
+			if (myTurn)&#xD;
+			{&#xD;
+				throw new IllegalStateException(&#xD;
+						&quot;Attempt to give a turn to a player who's &quot; + &quot;hasn't completed the current turn&quot;);&#xD;
+			}&#xD;
+			myTurn = true;&#xD;
+			notify();&#xD;
+			while (myTurn)&#xD;
+			{&#xD;
+				try&#xD;
+				{&#xD;
+					wait();&#xD;
+				}&#xD;
+				catch (InterruptedException ignored)&#xD;
+				{&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcEH8EMtEeye6rzg8ouruQ" name="run" specification="_jaRYMUMtEeye6rzg8ouruQ">
+        <language>java</language>
+        <body>running = true;&#xD;
+		synchronized (this)&#xD;
+		{&#xD;
+			do&#xD;
+			{&#xD;
+				// Wait for my turn&#xD;
+				while (!myTurn)&#xD;
+				{&#xD;
+					try&#xD;
+					{&#xD;
+						wait();&#xD;
+					}&#xD;
+					catch (InterruptedException ignored)&#xD;
+					{&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// My turn!&#xD;
+				doTurn();&#xD;
+				turnCount++;&#xD;
+&#xD;
+				// Done, complete turn and wake-up the waiting process&#xD;
+				myTurn = false;&#xD;
+				notify();&#xD;
+			}&#xD;
+			while (running);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcEH8UMtEeye6rzg8ouruQ" name="doTurn" specification="_jaRYMkMtEeye6rzg8ouruQ">
+        <language>java</language>
+        <body>System.out.println(&quot;Player[&quot; + myJob.name() + &quot;] taking turn &quot; + turnCount);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jaNt0EMtEeye6rzg8ouruQ" name="main" isStatic="true" method="_jcAdkEMtEeye6rzg8ouruQ">
+        <ownedParameter xmi:id="_jaNt0UMtEeye6rzg8ouruQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jaO78EMtEeye6rzg8ouruQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jaQxIEMtEeye6rzg8ouruQ" name="stopPlayer" method="_jcDg40MtEeye6rzg8ouruQ"/>
+      <ownedOperation xmi:id="_jaRYMEMtEeye6rzg8ouruQ" name="giveTurn" method="_jcDg5EMtEeye6rzg8ouruQ"/>
+      <ownedOperation xmi:id="_jaRYMUMtEeye6rzg8ouruQ" name="run" method="_jcEH8EMtEeye6rzg8ouruQ"/>
+      <ownedOperation xmi:id="_jaRYMkMtEeye6rzg8ouruQ" name="doTurn" visibility="private" method="_jcEH8UMtEeye6rzg8ouruQ"/>
+      <ownedOperation xmi:id="_jbNMUEMtEeye6rzg8ouruQ" name="Player" visibility="package" method="_jcDg4EMtEeye6rzg8ouruQ">
+        <eAnnotations xmi:id="_jbNMUkMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_jbNMU0MtEeye6rzg8ouruQ" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_jbNMUUMtEeye6rzg8ouruQ" name="myJob" type="_jaL4oEMtEeye6rzg8ouruQ"/>
+        <ownedParameter xmi:id="_jbNzYEMtEeye6rzg8ouruQ" type="_jaGZEEMtEeye6rzg8ouruQ" direction="return"/>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_jaL4oEMtEeye6rzg8ouruQ" name="State" visibility="private">
+        <ownedLiteral xmi:id="_jaMfsEMtEeye6rzg8ouruQ" name="A"/>
+        <ownedLiteral xmi:id="_jaMfsUMtEeye6rzg8ouruQ" name="B"/>
+        <ownedLiteral xmi:id="_jaMfskMtEeye6rzg8ouruQ" name="C"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jaVpoEMtEeye6rzg8ouruQ" name="Tone">
+      <ownedComment xmi:id="_jcHLQEMtEeye6rzg8ouruQ">
+        <body>@author Jason Miner&#xD;
+&#xD;
+        Tone class that was provided by Professor Nate Williams through&#xD;
+        Moodle. Plays songs from text files though the use of ant arguments.&#xD;
+ *</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_jb6-AEMtEeye6rzg8ouruQ" name="af" visibility="private" isLeaf="true" type="_jbVIIUMtEeye6rzg8ouruQ" isReadOnly="true" association="_jcLcsEMtEeye6rzg8ouruQ"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcFWFEMtEeye6rzg8ouruQ" name="loadSong" specification="_jakTIEMtEeye6rzg8ouruQ">
+        <ownedParameter xmi:id="_jcFWFUMtEeye6rzg8ouruQ" name="filename">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_jcFWFkMtEeye6rzg8ouruQ" type="_jaWQsEMtEeye6rzg8ouruQ" isOrdered="true" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jcFWF0MtEeye6rzg8ouruQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>final List&lt;BellNote> song = new ArrayList&lt;>();&#xD;
+		final File file = new File(filename);&#xD;
+		Boolean error = false;&#xD;
+&#xD;
+		if (file.exists())&#xD;
+		{&#xD;
+			try (FileReader fileReader = new FileReader(file); BufferedReader br = new BufferedReader(fileReader))&#xD;
+			{&#xD;
+				String line;&#xD;
+				NoteLength nl = null;&#xD;
+				Note n = null;&#xD;
+&#xD;
+				if (br.readLine() == null)&#xD;
+				{&#xD;
+					System.err.println(&quot;Error: File is Blank!&quot;);&#xD;
+					error = true;&#xD;
+				}&#xD;
+				else&#xD;
+				{&#xD;
+					while ((line = br.readLine()) != null)&#xD;
+					{&#xD;
+						final String[] fields = line.split(&quot; &quot;);&#xD;
+&#xD;
+						if (fields != null)&#xD;
+						{&#xD;
+							if (fields[0].equals(&quot;A4&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;A4S&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;B4&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;C4&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;C4S&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;D4&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;D4S&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;E4&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;F4&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;F4S&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;G4&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;G4S&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;A5&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else if (fields[0].equals(&quot;REST&quot;))&#xD;
+							{&#xD;
+								n = Note.valueOf(fields[0]);&#xD;
+							}&#xD;
+							else&#xD;
+							{&#xD;
+								System.err.println(&quot;Error: Invalid Note&quot;);&#xD;
+								error = true;&#xD;
+								break;&#xD;
+							}&#xD;
+							if (fields[1].equals(&quot;1&quot;))&#xD;
+							{&#xD;
+								nl = NoteLength.WHOLE;&#xD;
+							}&#xD;
+							else if (fields[1].equals(&quot;2&quot;))&#xD;
+							{&#xD;
+								nl = NoteLength.HALF;&#xD;
+							}&#xD;
+							else if (fields[1].equals(&quot;3&quot;))&#xD;
+							{&#xD;
+								nl = NoteLength.EIGTH;&#xD;
+							}&#xD;
+							else if (fields[1].equals(&quot;4&quot;))&#xD;
+							{&#xD;
+								nl = NoteLength.QUARTER;&#xD;
+							}&#xD;
+							else&#xD;
+							{&#xD;
+								System.err.println(&quot;Error: Invalid NoteLength&quot;);&#xD;
+								error = true;&#xD;
+								break;&#xD;
+							}&#xD;
+&#xD;
+							BellNote bn = new BellNote(n, nl);&#xD;
+							song.add(bn);&#xD;
+						}&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+			catch (FileNotFoundException e)&#xD;
+			{&#xD;
+				System.err.println(&quot;Error: File not Found!!&quot;);&#xD;
+				e.printStackTrace();&#xD;
+				error = true;&#xD;
+			}&#xD;
+			catch (IOException e)&#xD;
+			{&#xD;
+				System.err.println(&quot;IOException: File Doesn't exsit!&quot;);&#xD;
+				e.printStackTrace();&#xD;
+				error = true;&#xD;
+			}&#xD;
+		}&#xD;
+		else&#xD;
+		{&#xD;
+			System.err.println(&quot;Error: File Not Found!&quot;);&#xD;
+		}&#xD;
+		if (error)&#xD;
+		{&#xD;
+			return null;&#xD;
+		}&#xD;
+		return song;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcFWGEMtEeye6rzg8ouruQ" name="main" specification="_jamIUEMtEeye6rzg8ouruQ">
+        <ownedParameter xmi:id="_jcFWGUMtEeye6rzg8ouruQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jcFWGkMtEeye6rzg8ouruQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// System.out.println(&quot;Main running&quot;);&#xD;
+		final AudioFormat af = new AudioFormat(Note.SAMPLE_RATE, 8, 1, true, false);&#xD;
+		Tone t = new Tone(af);&#xD;
+		List&lt;BellNote> song = null;&#xD;
+&#xD;
+		for (int i = 0; i &lt; args.length; i++)&#xD;
+		{&#xD;
+			switch (i)&#xD;
+			{&#xD;
+			case 0:&#xD;
+				song = loadSong(args[i]);&#xD;
+				break;&#xD;
+			}&#xD;
+			if (song != null)&#xD;
+			{&#xD;
+				t.playSong(song);&#xD;
+			}&#xD;
+			else&#xD;
+			{&#xD;
+				System.err.println(&quot;Error: Invalid File.&quot;);&#xD;
+				break;&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcF9IEMtEeye6rzg8ouruQ" name="Tone" specification="_jbqfUEMtEeye6rzg8ouruQ">
+        <ownedParameter xmi:id="_jcF9IUMtEeye6rzg8ouruQ" name="af" type="_jbVIIUMtEeye6rzg8ouruQ"/>
+        <ownedParameter xmi:id="_jcF9IkMtEeye6rzg8ouruQ" type="_jaVpoEMtEeye6rzg8ouruQ" direction="return"/>
+        <language>java</language>
+        <body>this.af = af;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcF9I0MtEeye6rzg8ouruQ" name="playSong" specification="_jbrGYEMtEeye6rzg8ouruQ">
+        <ownedParameter xmi:id="_jcF9JEMtEeye6rzg8ouruQ" name="song" type="_jbT6AUMtEeye6rzg8ouruQ"/>
+        <language>java</language>
+        <body>try (final SourceDataLine line = AudioSystem.getSourceDataLine(af))&#xD;
+		{&#xD;
+			line.open();&#xD;
+			line.start();&#xD;
+&#xD;
+			for (BellNote bn : song)&#xD;
+			{	&#xD;
+				&#xD;
+				&#xD;
+				playNote(line, bn);&#xD;
+			}&#xD;
+			line.drain();&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcF9JUMtEeye6rzg8ouruQ" name="playNote" specification="_jbsUgEMtEeye6rzg8ouruQ">
+        <ownedParameter xmi:id="_jcF9JkMtEeye6rzg8ouruQ" name="line" type="_jbW9UUMtEeye6rzg8ouruQ"/>
+        <ownedParameter xmi:id="_jcF9J0MtEeye6rzg8ouruQ" name="bn" type="_jaWQsEMtEeye6rzg8ouruQ"/>
+        <language>java</language>
+        <body>final int ms = Math.min(bn.length.timeMs(), Note.MEASURE_LENGTH_SEC * 1000);&#xD;
+		final int length = Note.SAMPLE_RATE * ms / 1000;&#xD;
+		line.write(bn.note.sample(), 0, length);&#xD;
+		line.write(Note.REST.sample(), 0, 50);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jakTIEMtEeye6rzg8ouruQ" name="loadSong" visibility="private" isStatic="true" method="_jcFWFEMtEeye6rzg8ouruQ">
+        <ownedComment xmi:id="_jcHyUkMtEeye6rzg8ouruQ">
+          <body>Loads the song from a text file and changes the strings into the actual Note&#xD;
+	 * and NoteLegnth that can be added to the BellNote List.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_jakTIUMtEeye6rzg8ouruQ" name="filename">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_jak6MEMtEeye6rzg8ouruQ" type="_jaWQsEMtEeye6rzg8ouruQ" isOrdered="true" direction="return">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jak6MUMtEeye6rzg8ouruQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jamIUEMtEeye6rzg8ouruQ" name="main" isStatic="true" method="_jcFWGEMtEeye6rzg8ouruQ" raisedException="_jbpRMEMtEeye6rzg8ouruQ">
+        <ownedComment xmi:id="_jcHyU0MtEeye6rzg8ouruQ">
+          <body>main method that runs the class to actually play the music.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_jamIUUMtEeye6rzg8ouruQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jamIUkMtEeye6rzg8ouruQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jbqfUEMtEeye6rzg8ouruQ" name="Tone" visibility="package" method="_jcF9IEMtEeye6rzg8ouruQ">
+        <eAnnotations xmi:id="_jbqfUkMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_jbqfU0MtEeye6rzg8ouruQ" key="create"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_jcHyVEMtEeye6rzg8ouruQ">
+          <body>sets the tone of the music.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_jbqfUUMtEeye6rzg8ouruQ" name="af" type="_jbVIIUMtEeye6rzg8ouruQ"/>
+        <ownedParameter xmi:id="_jbqfVEMtEeye6rzg8ouruQ" type="_jaVpoEMtEeye6rzg8ouruQ" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jbrGYEMtEeye6rzg8ouruQ" name="playSong" visibility="package" method="_jcF9I0MtEeye6rzg8ouruQ" raisedException="_jbWWQUMtEeye6rzg8ouruQ">
+        <ownedComment xmi:id="_jcHyVUMtEeye6rzg8ouruQ">
+          <body>Plays all the notes to create a song.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_jbrGYUMtEeye6rzg8ouruQ" name="song" type="_jbT6AUMtEeye6rzg8ouruQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_jbsUgEMtEeye6rzg8ouruQ" name="playNote" visibility="private" method="_jcF9JUMtEeye6rzg8ouruQ">
+        <ownedComment xmi:id="_jcHyVkMtEeye6rzg8ouruQ">
+          <body>plays the music note.</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_jbsUgUMtEeye6rzg8ouruQ" name="line" type="_jbW9UUMtEeye6rzg8ouruQ"/>
+        <ownedParameter xmi:id="_jbsUgkMtEeye6rzg8ouruQ" name="bn" type="_jaWQsEMtEeye6rzg8ouruQ"/>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_jaWQsEMtEeye6rzg8ouruQ" name="BellNote" visibility="package">
+        <eAnnotations xmi:id="_jaW3wEMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_jaW3wUMtEeye6rzg8ouruQ" key="sameFile"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_jcHLQUMtEeye6rzg8ouruQ">
+          <body>Class for combining Note and NoteLegnth to create a BellNote.</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_jbzpQEMtEeye6rzg8ouruQ" name="note" visibility="package" isLeaf="true" type="_jblm0EMtEeye6rzg8ouruQ" isReadOnly="true"/>
+        <ownedAttribute xmi:id="_jb0QUEMtEeye6rzg8ouruQ" name="length" visibility="package" isLeaf="true" type="_jbmN4EMtEeye6rzg8ouruQ" isReadOnly="true"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_jcEH8kMtEeye6rzg8ouruQ" name="BellNote" specification="_jbm08UMtEeye6rzg8ouruQ">
+          <ownedParameter xmi:id="_jcEH80MtEeye6rzg8ouruQ" name="note" type="_jblm0EMtEeye6rzg8ouruQ"/>
+          <ownedParameter xmi:id="_jcEH9EMtEeye6rzg8ouruQ" name="length" type="_jbmN4EMtEeye6rzg8ouruQ"/>
+          <ownedParameter xmi:id="_jcEH9UMtEeye6rzg8ouruQ" type="_jaWQsEMtEeye6rzg8ouruQ" direction="return"/>
+          <language>java</language>
+          <body>this.note = note;&#xD;
+		this.length = length;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_jbm08UMtEeye6rzg8ouruQ" name="BellNote" visibility="package" method="_jcEH8kMtEeye6rzg8ouruQ">
+          <eAnnotations xmi:id="_jbncAkMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jbncA0MtEeye6rzg8ouruQ" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_jcHLQkMtEeye6rzg8ouruQ">
+            <body>Creates the actual BellNote by combining the Note and NoteLength.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_jbncAEMtEeye6rzg8ouruQ" name="note" type="_jblm0EMtEeye6rzg8ouruQ"/>
+          <ownedParameter xmi:id="_jbncAUMtEeye6rzg8ouruQ" name="length" type="_jbmN4EMtEeye6rzg8ouruQ"/>
+          <ownedParameter xmi:id="_jbncBEMtEeye6rzg8ouruQ" type="_jaWQsEMtEeye6rzg8ouruQ" direction="return"/>
+        </ownedOperation>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_jaYs8EMtEeye6rzg8ouruQ" name="NoteLength" visibility="package">
+        <eAnnotations xmi:id="_jaZUAEMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_jaZUAUMtEeye6rzg8ouruQ" key="sameFile"/>
+        </eAnnotations>
+        <ownedComment xmi:id="_jcHLQ0MtEeye6rzg8ouruQ">
+          <body>Class for the note length.</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_jb03YEMtEeye6rzg8ouruQ" name="timeMs" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_jabJMEMtEeye6rzg8ouruQ" name="NoteLength" visibility="private" method="_jcEvAEMtEeye6rzg8ouruQ">
+          <eAnnotations xmi:id="_jabwQEMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jabwQUMtEeye6rzg8ouruQ" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_jcHLSEMtEeye6rzg8ouruQ">
+            <body>Creates the actual note lengths using timeMs and Math.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_jabJMUMtEeye6rzg8ouruQ" name="length">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_jabwQkMtEeye6rzg8ouruQ" type="_jaYs8EMtEeye6rzg8ouruQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jabwQ0MtEeye6rzg8ouruQ" name="timeMs" method="_jcEvA0MtEeye6rzg8ouruQ">
+          <ownedComment xmi:id="_jcHLSUMtEeye6rzg8ouruQ">
+            <body>Returns time in milliseconds</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_jacXUEMtEeye6rzg8ouruQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_jaZUAkMtEeye6rzg8ouruQ" name="WHOLE">
+          <specification xmi:type="uml:Expression" xmi:id="_jaZUA0MtEeye6rzg8ouruQ">
+            <operand xmi:type="uml:LiteralString" xmi:id="_jcHLREMtEeye6rzg8ouruQ" value="1.0f"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_jaZ7EEMtEeye6rzg8ouruQ" name="HALF">
+          <specification xmi:type="uml:Expression" xmi:id="_jaZ7EUMtEeye6rzg8ouruQ">
+            <operand xmi:type="uml:LiteralString" xmi:id="_jcHLRUMtEeye6rzg8ouruQ" value="0.5f"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_jaZ7EkMtEeye6rzg8ouruQ" name="QUARTER">
+          <specification xmi:type="uml:Expression" xmi:id="_jaZ7E0MtEeye6rzg8ouruQ">
+            <operand xmi:type="uml:LiteralString" xmi:id="_jcHLRkMtEeye6rzg8ouruQ" value="0.25f"/>
+          </specification>
+        </ownedLiteral>
+        <ownedLiteral xmi:id="_jaZ7FEMtEeye6rzg8ouruQ" name="EIGTH">
+          <specification xmi:type="uml:Expression" xmi:id="_jaZ7FUMtEeye6rzg8ouruQ">
+            <operand xmi:type="uml:LiteralString" xmi:id="_jcHLR0MtEeye6rzg8ouruQ" value="0.125f"/>
+          </specification>
+        </ownedLiteral>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_jadlcEMtEeye6rzg8ouruQ" name="Note" visibility="package">
+        <eAnnotations xmi:id="_jadlcUMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_jadlckMtEeye6rzg8ouruQ" key="sameFile"/>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_jb2FgEMtEeye6rzg8ouruQ" name="SAMPLE_RATE" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_jb2FgUMtEeye6rzg8ouruQ" value="48 * 1024"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jb2skEMtEeye6rzg8ouruQ" name="MEASURE_LENGTH_SEC" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_jb3ToEMtEeye6rzg8ouruQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jb3ToUMtEeye6rzg8ouruQ" name="step_alpha" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_jb36sEMtEeye6rzg8ouruQ" value="(2.0d * Math.PI) / SAMPLE_RATE"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jb36sUMtEeye6rzg8ouruQ" name="FREQUENCY_A_HZ" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_jb4hwEMtEeye6rzg8ouruQ" value="440.0d"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jb5I0EMtEeye6rzg8ouruQ" name="MAX_VOLUME" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_jb5I0UMtEeye6rzg8ouruQ" value="127.0d"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jb5v4UMtEeye6rzg8ouruQ" name="sinSample" visibility="private" isLeaf="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jb5v4kMtEeye6rzg8ouruQ" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_jb6W8UMtEeye6rzg8ouruQ" value="new byte[MEASURE_LENGTH_SEC * SAMPLE_RATE]"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_jahP0EMtEeye6rzg8ouruQ" name="Note" visibility="private" method="_jcEvBUMtEeye6rzg8ouruQ">
+          <eAnnotations xmi:id="_jahP0UMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jah24EMtEeye6rzg8ouruQ" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_jcHyUEMtEeye6rzg8ouruQ">
+            <body>sets the actual notes through frequencies</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_jah24UMtEeye6rzg8ouruQ" type="_jadlcEMtEeye6rzg8ouruQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_jah24kMtEeye6rzg8ouruQ" name="sample" method="_jcFWEUMtEeye6rzg8ouruQ">
+          <ownedComment xmi:id="_jcHyUUMtEeye6rzg8ouruQ">
+            <body>creates a byte sample.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_jah240MtEeye6rzg8ouruQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jah25EMtEeye6rzg8ouruQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedLiteral xmi:id="_jaeMgEMtEeye6rzg8ouruQ" name="REST"/>
+        <ownedLiteral xmi:id="_jaeMgUMtEeye6rzg8ouruQ" name="A4"/>
+        <ownedLiteral xmi:id="_jaeMgkMtEeye6rzg8ouruQ" name="A4S"/>
+        <ownedLiteral xmi:id="_jaeMg0MtEeye6rzg8ouruQ" name="B4"/>
+        <ownedLiteral xmi:id="_jaeMhEMtEeye6rzg8ouruQ" name="C4"/>
+        <ownedLiteral xmi:id="_jaeMhUMtEeye6rzg8ouruQ" name="C4S"/>
+        <ownedLiteral xmi:id="_jaezkEMtEeye6rzg8ouruQ" name="D4"/>
+        <ownedLiteral xmi:id="_jaezkUMtEeye6rzg8ouruQ" name="D4S"/>
+        <ownedLiteral xmi:id="_jaezkkMtEeye6rzg8ouruQ" name="E4"/>
+        <ownedLiteral xmi:id="_jaezk0MtEeye6rzg8ouruQ" name="F4"/>
+        <ownedLiteral xmi:id="_jaezlEMtEeye6rzg8ouruQ" name="F4S"/>
+        <ownedLiteral xmi:id="_jafaoEMtEeye6rzg8ouruQ" name="G4"/>
+        <ownedLiteral xmi:id="_jafaoUMtEeye6rzg8ouruQ" name="G4S"/>
+        <ownedLiteral xmi:id="_jafaokMtEeye6rzg8ouruQ" name="A5"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_jblm0EMtEeye6rzg8ouruQ" name="Note"/>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_jbmN4EMtEeye6rzg8ouruQ" name="NoteLength"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jcK1oEMtEeye6rzg8ouruQ" name="" memberEnd="_jcK1oUMtEeye6rzg8ouruQ _jbxNAUMtEeye6rzg8ouruQ">
+      <ownedEnd xmi:id="_jcK1oUMtEeye6rzg8ouruQ" name="" type="_jaGZEEMtEeye6rzg8ouruQ" association="_jcK1oEMtEeye6rzg8ouruQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jcLcsEMtEeye6rzg8ouruQ" name="" memberEnd="_jcLcsUMtEeye6rzg8ouruQ _jb6-AEMtEeye6rzg8ouruQ">
+      <ownedEnd xmi:id="_jcLcsUMtEeye6rzg8ouruQ" name="" type="_jaVpoEMtEeye6rzg8ouruQ" association="_jcLcsEMtEeye6rzg8ouruQ"/>
+    </packagedElement>
+    <profileApplication xmi:id="_jNdrQEMtEeye6rzg8ouruQ">
+      <eAnnotations xmi:id="_jNgukEMtEeye6rzg8ouruQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_jNncQEMtEeye6rzg8ouruQ" base_Package="_iKRI4EMtEeye6rzg8ouruQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Array xmi:id="_jaid8EMtEeye6rzg8ouruQ" base_Element="_jah24kMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbPBgEMtEeye6rzg8ouruQ" base_Element="_jbOacEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbQPoEMtEeye6rzg8ouruQ" base_Element="_jbPokEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbRdwEMtEeye6rzg8ouruQ" base_Element="_jbQ2sEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbSE0EMtEeye6rzg8ouruQ" base_Element="_jbRdwUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbSr4EMtEeye6rzg8ouruQ" base_Element="_jbSE0UMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbT6AEMtEeye6rzg8ouruQ" base_Element="_jbTS8EMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbVIIEMtEeye6rzg8ouruQ" base_Element="_jbT6AUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbVvMEMtEeye6rzg8ouruQ" base_Element="_jbVIIUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbWWQEMtEeye6rzg8ouruQ" base_Element="_jbVvMUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbW9UEMtEeye6rzg8ouruQ" base_Element="_jbWWQUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbXkYEMtEeye6rzg8ouruQ" base_Element="_jbW9UUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbfgMEMtEeye6rzg8ouruQ" base_Element="_jbe5IUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbkYsEMtEeye6rzg8ouruQ" base_Element="_jbjxoEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jblm0UMtEeye6rzg8ouruQ" base_Element="_jblm0EMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbm08EMtEeye6rzg8ouruQ" base_Element="_jbmN4EMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jbpRMUMtEeye6rzg8ouruQ" base_Element="_jbpRMEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Generics xmi:id="_jbrtcEMtEeye6rzg8ouruQ" genericsValue="BellNote" base_Element="_jbrGYUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbwl8EMtEeye6rzg8ouruQ" base_Element="_jbv-4UMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbxNAEMtEeye6rzg8ouruQ" base_Element="_jbwl8UMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbxNAkMtEeye6rzg8ouruQ" base_Element="_jbxNAUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbx0E0MtEeye6rzg8ouruQ" base_Element="_jbx0EEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbybIEMtEeye6rzg8ouruQ" base_Element="_jbx0FEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbzCMEMtEeye6rzg8ouruQ" base_Element="_jbybIUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jbzpQUMtEeye6rzg8ouruQ" base_Element="_jbzpQEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jb0QUUMtEeye6rzg8ouruQ" base_Element="_jb0QUEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jb1ecEMtEeye6rzg8ouruQ" base_Element="_jb03YEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jb4hwUMtEeye6rzg8ouruQ" base_Element="_jb36sUMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jb5v4EMtEeye6rzg8ouruQ" base_Element="_jb5I0EMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Array xmi:id="_jb6W8EMtEeye6rzg8ouruQ" base_Element="_jb5v4UMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jb6W8kMtEeye6rzg8ouruQ" base_Element="_jb5v4UMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_jb6-AUMtEeye6rzg8ouruQ" base_Element="_jb6-AEMtEeye6rzg8ouruQ"/>
+  <uml:OpaqueBehavior xmi:id="_jcEvAEMtEeye6rzg8ouruQ" name="NoteLength" specification="_jabJMEMtEeye6rzg8ouruQ">
+    <ownedParameter xmi:id="_jcEvAUMtEeye6rzg8ouruQ" name="length">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </ownedParameter>
+    <ownedParameter xmi:id="_jcEvAkMtEeye6rzg8ouruQ" type="_jaYs8EMtEeye6rzg8ouruQ" direction="return"/>
+    <language>java</language>
+    <body>timeMs = (int) (length * Note.MEASURE_LENGTH_SEC * 1000);&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jcEvA0MtEeye6rzg8ouruQ" name="timeMs" specification="_jabwQ0MtEeye6rzg8ouruQ">
+    <ownedParameter xmi:id="_jcEvBEMtEeye6rzg8ouruQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return timeMs;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jcEvBUMtEeye6rzg8ouruQ" name="Note" specification="_jahP0EMtEeye6rzg8ouruQ">
+    <ownedParameter xmi:id="_jcFWEEMtEeye6rzg8ouruQ" type="_jadlcEMtEeye6rzg8ouruQ" direction="return"/>
+    <language>java</language>
+    <body>int n = this.ordinal();&#xD;
+		if (n > 0)&#xD;
+		{&#xD;
+			// Calculate the frequency!&#xD;
+			final double halfStepUpFromA = n - 1;&#xD;
+			final double exp = halfStepUpFromA / 12.0d;&#xD;
+			final double freq = FREQUENCY_A_HZ * Math.pow(2.0d, exp);&#xD;
+&#xD;
+			// Create sinusoidal data sample for the desired frequency&#xD;
+			final double sinStep = freq * step_alpha;&#xD;
+			for (int i = 0; i &lt; sinSample.length; i++)&#xD;
+			{&#xD;
+				sinSample[i] = (byte) (Math.sin(i * sinStep) * MAX_VOLUME);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_jcFWEUMtEeye6rzg8ouruQ" name="sample" specification="_jah24kMtEeye6rzg8ouruQ">
+    <ownedParameter xmi:id="_jcFWEkMtEeye6rzg8ouruQ" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jcFWE0MtEeye6rzg8ouruQ" value="*"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return sinSample;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_jcK1okMtEeye6rzg8ouruQ" base_Element="_jcK1oEMtEeye6rzg8ouruQ"/>
+  <UMLLabProfile:Reference xmi:id="_jcLcskMtEeye6rzg8ouruQ" base_Element="_jcLcsEMtEeye6rzg8ouruQ"/>
+</xmi:XMI>

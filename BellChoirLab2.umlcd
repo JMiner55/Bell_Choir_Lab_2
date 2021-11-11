@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jFzkEEMtEeye6rzg8ouruQ">
+  <modelElement href="BellChoirLab2.uml#_iKRI4EMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_joG_4EMtEeye6rzg8ouruQ" targetItem="_joR_CUMtEeye6rzg8ouruQ" sourceItem="_joFxwEMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_joKqQUMtEeye6rzg8ouruQ" targetItem="_joR_EUMtEeye6rzg8ouruQ" sourceItem="_joKqQEMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_joKqQ0MtEeye6rzg8ouruQ" targetItem="_joR_GUMtEeye6rzg8ouruQ" sourceItem="_joKqQkMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_joL4YEMtEeye6rzg8ouruQ" targetItem="_joR_H0MtEeye6rzg8ouruQ" sourceItem="_joLRUEMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_joMfcUMtEeye6rzg8ouruQ" targetItem="_joR_KEMtEeye6rzg8ouruQ" sourceItem="_joMfcEMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_joNGgEMtEeye6rzg8ouruQ" targetItem="_joR_LkMtEeye6rzg8ouruQ" sourceItem="_joMfckMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_joR_AEMtEeye6rzg8ouruQ" source="_joR_CUMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcLcsEMtEeye6rzg8ouruQ"/>
+    <stereotypes xmi:id="_joR_AUMtEeye6rzg8ouruQ" name="Reference">
+      <modelElement href="BellChoirLab2.uml#_jcLcskMtEeye6rzg8ouruQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_joR_AkMtEeye6rzg8ouruQ" text=""/>
+    <sourceRole xmi:id="_joR_A0MtEeye6rzg8ouruQ" aggregationKind="NONE" name="">
+      <modelElement href="BellChoirLab2.uml#_jcLcsUMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_joR_BEMtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_joR_BUMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_joR_BkMtEeye6rzg8ouruQ" aggregationKind="NONE" name="af" navigable="true">
+      <modelElement href="BellChoirLab2.uml#_jb6-AEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_joR_B0MtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_joR_CEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jpEpMUMtEeye6rzg8ouruQ" targetItem="_jpF3UEMtEeye6rzg8ouruQ" sourceItem="_jpEpMEMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jpFQQUMtEeye6rzg8ouruQ" targetItem="_jpF3XkMtEeye6rzg8ouruQ" sourceItem="_jpFQQEMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jpKv0UMtEeye6rzg8ouruQ" targetItem="_jpL98EMtEeye6rzg8ouruQ" sourceItem="_jpKv0EMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jpLW4UMtEeye6rzg8ouruQ" targetItem="_jpL9-UMtEeye6rzg8ouruQ" sourceItem="_jpLW4EMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jpLW40MtEeye6rzg8ouruQ" targetItem="_jpL-AkMtEeye6rzg8ouruQ" sourceItem="_jpLW4kMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jpTSsEMtEeye6rzg8ouruQ" targetItem="_jpUg8EMtEeye6rzg8ouruQ" sourceItem="_jpSroEMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jpTSskMtEeye6rzg8ouruQ" targetItem="_jpUg9kMtEeye6rzg8ouruQ" sourceItem="_jpTSsUMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jpk_gUMtEeye6rzg8ouruQ" targetItem="_jpoC2UMtEeye6rzg8ouruQ" sourceItem="_jpk_gEMtEeye6rzg8ouruQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jpoC0EMtEeye6rzg8ouruQ" source="_jpoC2UMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcK1oEMtEeye6rzg8ouruQ"/>
+    <stereotypes xmi:id="_jpoC0UMtEeye6rzg8ouruQ" name="Reference">
+      <modelElement href="BellChoirLab2.uml#_jcK1okMtEeye6rzg8ouruQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jpoC0kMtEeye6rzg8ouruQ" text=""/>
+    <sourceRole xmi:id="_jpoC00MtEeye6rzg8ouruQ" aggregationKind="NONE" name="">
+      <modelElement href="BellChoirLab2.uml#_jcK1oUMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpoC1EMtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpoC1UMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jpoC1kMtEeye6rzg8ouruQ" aggregationKind="NONE" name="t" navigable="true">
+      <modelElement href="BellChoirLab2.uml#_jbxNAUMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpoC10MtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpoC2EMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_joFxwEMtEeye6rzg8ouruQ" sourceConnectionVisual="_joG_4EMtEeye6rzg8ouruQ" text="@author Jason Miner&#xD;&#xA;&#xD;&#xA;        Tone class that was provided by Professor Nate Williams through&#xD;&#xA;        Moodle. Plays songs from text files though the use of ant arguments.&#xD;&#xA; *" item="_joR_CUMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHLQEMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_joKqQEMtEeye6rzg8ouruQ" sourceConnectionVisual="_joKqQUMtEeye6rzg8ouruQ" text="Loads the song from a text file and changes the strings into the actual Note&#xD;&#xA;&#x9; * and NoteLegnth that can be added to the BellNote List." item="_joR_EUMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHyUkMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_joKqQkMtEeye6rzg8ouruQ" sourceConnectionVisual="_joKqQ0MtEeye6rzg8ouruQ" text="main method that runs the class to actually play the music." item="_joR_GUMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHyU0MtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_joLRUEMtEeye6rzg8ouruQ" sourceConnectionVisual="_joL4YEMtEeye6rzg8ouruQ" text="sets the tone of the music." item="_joR_H0MtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHyVEMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_joMfcEMtEeye6rzg8ouruQ" sourceConnectionVisual="_joMfcUMtEeye6rzg8ouruQ" text="Plays all the notes to create a song." item="_joR_KEMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHyVUMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_joMfckMtEeye6rzg8ouruQ" sourceConnectionVisual="_joNGgEMtEeye6rzg8ouruQ" text="plays the music note." item="_joR_LkMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHyVkMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jpEpMEMtEeye6rzg8ouruQ" sourceConnectionVisual="_jpEpMUMtEeye6rzg8ouruQ" text="Class for combining Note and NoteLegnth to create a BellNote." item="_jpF3UEMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHLQUMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jpFQQEMtEeye6rzg8ouruQ" sourceConnectionVisual="_jpFQQUMtEeye6rzg8ouruQ" text="Creates the actual BellNote by combining the Note and NoteLength." item="_jpF3XkMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHLQkMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jpKv0EMtEeye6rzg8ouruQ" sourceConnectionVisual="_jpKv0UMtEeye6rzg8ouruQ" text="Class for the note length." item="_jpL98EMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHLQ0MtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jpLW4EMtEeye6rzg8ouruQ" sourceConnectionVisual="_jpLW4UMtEeye6rzg8ouruQ" text="Creates the actual note lengths using timeMs and Math." item="_jpL9-UMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHLSEMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jpLW4kMtEeye6rzg8ouruQ" sourceConnectionVisual="_jpLW40MtEeye6rzg8ouruQ" text="Returns time in milliseconds" item="_jpL-AkMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHLSUMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jpSroEMtEeye6rzg8ouruQ" sourceConnectionVisual="_jpTSsEMtEeye6rzg8ouruQ" text="sets the actual notes through frequencies" item="_jpUg8EMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHyUEMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jpTSsUMtEeye6rzg8ouruQ" sourceConnectionVisual="_jpTSskMtEeye6rzg8ouruQ" text="creates a byte sample." item="_jpUg9kMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcHyUUMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jpk_gEMtEeye6rzg8ouruQ" sourceConnectionVisual="_jpk_gUMtEeye6rzg8ouruQ" text="@author Jason Miner&#xD;&#xA;&#xD;&#xA;        Player class that was provided by Professor Nate Williams through&#xD;&#xA;        Moodle.&#xD;&#xA;        creates players that will play notes in in the Tone Class." item="_jpoC2UMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jcGkMEMtEeye6rzg8ouruQ"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_joR_CUMtEeye6rzg8ouruQ" comments="_joFxwEMtEeye6rzg8ouruQ" targetConnectionVisual="_joG_4EMtEeye6rzg8ouruQ" name="Tone" associationsOut="_joR_AEMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jaVpoEMtEeye6rzg8ouruQ"/>
+    <visualProperties xmi:id="_joR_CkMtEeye6rzg8ouruQ" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_joR_C0MtEeye6rzg8ouruQ" label="+"/>
+    <attributes xmi:id="_joR_DEMtEeye6rzg8ouruQ" name="af">
+      <modelElement href="BellChoirLab2.uml#_jb6-AEMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_joR_DUMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jb6-AUMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_joR_DkMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_joR_D0MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_joR_EEMtEeye6rzg8ouruQ" name="AudioFormat">
+        <modelElement href="BellChoirLab2.uml#_jbVIIUMtEeye6rzg8ouruQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_joR_EUMtEeye6rzg8ouruQ" comments="_joKqQEMtEeye6rzg8ouruQ" targetConnectionVisual="_joKqQUMtEeye6rzg8ouruQ" name="loadSong" staticOperation="true">
+      <modelElement href="BellChoirLab2.uml#_jakTIEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_joR_EkMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_joR_E0MtEeye6rzg8ouruQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_joR_FEMtEeye6rzg8ouruQ">
+        <modelElement href="BellChoirLab2.uml#_jak6MEMtEeye6rzg8ouruQ"/>
+        <type xmi:id="_joR_FUMtEeye6rzg8ouruQ" name="BellNote">
+          <modelElement href="BellChoirLab2.uml#_jaWQsEMtEeye6rzg8ouruQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_joR_FkMtEeye6rzg8ouruQ" name="filename">
+        <modelElement href="BellChoirLab2.uml#_jakTIUMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_joR_F0MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_joR_GEMtEeye6rzg8ouruQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_joR_GUMtEeye6rzg8ouruQ" comments="_joKqQkMtEeye6rzg8ouruQ" targetConnectionVisual="_joKqQ0MtEeye6rzg8ouruQ" name="main" staticOperation="true">
+      <modelElement href="BellChoirLab2.uml#_jamIUEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_joR_GkMtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_joR_G0MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_joR_HEMtEeye6rzg8ouruQ" name="args">
+        <modelElement href="BellChoirLab2.uml#_jamIUUMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_joR_HUMtEeye6rzg8ouruQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_joR_HkMtEeye6rzg8ouruQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_joR_H0MtEeye6rzg8ouruQ" comments="_joLRUEMtEeye6rzg8ouruQ" targetConnectionVisual="_joL4YEMtEeye6rzg8ouruQ" name="Tone">
+      <modelElement href="BellChoirLab2.uml#_jbqfUEMtEeye6rzg8ouruQ"/>
+      <keywords xmi:id="_joR_IEMtEeye6rzg8ouruQ" keyword="create"/>
+      <visibility xmi:id="_joR_IUMtEeye6rzg8ouruQ" label="~"/>
+      <cardinality xmi:id="_joR_IkMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_joR_I0MtEeye6rzg8ouruQ">
+        <modelElement href="BellChoirLab2.uml#_jbqfVEMtEeye6rzg8ouruQ"/>
+        <type xmi:id="_joR_JEMtEeye6rzg8ouruQ" name="Tone">
+          <modelElement href="BellChoirLab2.uml#_jaVpoEMtEeye6rzg8ouruQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_joR_JUMtEeye6rzg8ouruQ" name="af">
+        <modelElement href="BellChoirLab2.uml#_jbqfUUMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_joR_JkMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_joR_J0MtEeye6rzg8ouruQ" name="AudioFormat">
+          <modelElement href="BellChoirLab2.uml#_jbVIIUMtEeye6rzg8ouruQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_joR_KEMtEeye6rzg8ouruQ" comments="_joMfcEMtEeye6rzg8ouruQ" targetConnectionVisual="_joMfcUMtEeye6rzg8ouruQ" name="playSong">
+      <modelElement href="BellChoirLab2.uml#_jbrGYEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_joR_KUMtEeye6rzg8ouruQ" label="~"/>
+      <cardinality xmi:id="_joR_KkMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_joR_K0MtEeye6rzg8ouruQ" name="song">
+        <modelElement href="BellChoirLab2.uml#_jbrGYUMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_joR_LEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_joR_LUMtEeye6rzg8ouruQ" name="List">
+          <modelElement href="BellChoirLab2.uml#_jbT6AUMtEeye6rzg8ouruQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_joR_LkMtEeye6rzg8ouruQ" comments="_joMfckMtEeye6rzg8ouruQ" targetConnectionVisual="_joNGgEMtEeye6rzg8ouruQ" name="playNote">
+      <modelElement href="BellChoirLab2.uml#_jbsUgEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_joR_L0MtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_joR_MEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_joR_MUMtEeye6rzg8ouruQ" name="line">
+        <modelElement href="BellChoirLab2.uml#_jbsUgUMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_joR_MkMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_joR_M0MtEeye6rzg8ouruQ" name="SourceDataLine">
+          <modelElement href="BellChoirLab2.uml#_jbW9UUMtEeye6rzg8ouruQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_joR_NEMtEeye6rzg8ouruQ" name="bn">
+        <modelElement href="BellChoirLab2.uml#_jbsUgkMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_joR_NUMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_joR_NkMtEeye6rzg8ouruQ" name="BellNote">
+          <modelElement href="BellChoirLab2.uml#_jaWQsEMtEeye6rzg8ouruQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jpF3UEMtEeye6rzg8ouruQ" comments="_jpEpMEMtEeye6rzg8ouruQ" targetConnectionVisual="_jpEpMUMtEeye6rzg8ouruQ" name="BellNote">
+    <modelElement href="BellChoirLab2.uml#_jaWQsEMtEeye6rzg8ouruQ"/>
+    <visualProperties xmi:id="_jpF3UUMtEeye6rzg8ouruQ" position="427.0,70.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_jpF3UkMtEeye6rzg8ouruQ" keyword="sameFile"/>
+    <visibility xmi:id="_jpF3U0MtEeye6rzg8ouruQ" label="~"/>
+    <attributes xmi:id="_jpF3VEMtEeye6rzg8ouruQ" name="note">
+      <modelElement href="BellChoirLab2.uml#_jbzpQEMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpF3VUMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jbzpQUMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpF3VkMtEeye6rzg8ouruQ" label="~"/>
+      <cardinality xmi:id="_jpF3V0MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpF3WEMtEeye6rzg8ouruQ" name="Note">
+        <modelElement href="BellChoirLab2.uml#_jblm0EMtEeye6rzg8ouruQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpF3WUMtEeye6rzg8ouruQ" name="length">
+      <modelElement href="BellChoirLab2.uml#_jb0QUEMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpF3WkMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jb0QUUMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpF3W0MtEeye6rzg8ouruQ" label="~"/>
+      <cardinality xmi:id="_jpF3XEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpF3XUMtEeye6rzg8ouruQ" name="NoteLength">
+        <modelElement href="BellChoirLab2.uml#_jbmN4EMtEeye6rzg8ouruQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jpF3XkMtEeye6rzg8ouruQ" comments="_jpFQQEMtEeye6rzg8ouruQ" targetConnectionVisual="_jpFQQUMtEeye6rzg8ouruQ" name="BellNote">
+      <modelElement href="BellChoirLab2.uml#_jbm08UMtEeye6rzg8ouruQ"/>
+      <keywords xmi:id="_jpF3X0MtEeye6rzg8ouruQ" keyword="create"/>
+      <visibility xmi:id="_jpF3YEMtEeye6rzg8ouruQ" label="~"/>
+      <cardinality xmi:id="_jpF3YUMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jpF3YkMtEeye6rzg8ouruQ">
+        <modelElement href="BellChoirLab2.uml#_jbncBEMtEeye6rzg8ouruQ"/>
+        <type xmi:id="_jpF3Y0MtEeye6rzg8ouruQ" name="BellNote">
+          <modelElement href="BellChoirLab2.uml#_jaWQsEMtEeye6rzg8ouruQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jpF3ZEMtEeye6rzg8ouruQ" name="note">
+        <modelElement href="BellChoirLab2.uml#_jbncAEMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_jpF3ZUMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_jpF3ZkMtEeye6rzg8ouruQ" name="Note">
+          <modelElement href="BellChoirLab2.uml#_jblm0EMtEeye6rzg8ouruQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jpF3Z0MtEeye6rzg8ouruQ" name="length">
+        <modelElement href="BellChoirLab2.uml#_jbncAUMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_jpF3aEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_jpF3aUMtEeye6rzg8ouruQ" name="NoteLength">
+          <modelElement href="BellChoirLab2.uml#_jbmN4EMtEeye6rzg8ouruQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_jpL98EMtEeye6rzg8ouruQ" comments="_jpKv0EMtEeye6rzg8ouruQ" targetConnectionVisual="_jpKv0UMtEeye6rzg8ouruQ" name="NoteLength">
+    <modelElement href="BellChoirLab2.uml#_jaYs8EMtEeye6rzg8ouruQ"/>
+    <visualProperties xmi:id="_jpL98UMtEeye6rzg8ouruQ" position="-359.0,-26.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_jpL98kMtEeye6rzg8ouruQ" keyword="sameFile"/>
+    <visibility xmi:id="_jpL980MtEeye6rzg8ouruQ" label="~"/>
+    <attributes xmi:id="_jpL99EMtEeye6rzg8ouruQ" name="timeMs">
+      <modelElement href="BellChoirLab2.uml#_jb03YEMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpL99UMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jb1ecEMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpL99kMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpL990MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpL9-EMtEeye6rzg8ouruQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jpL9-UMtEeye6rzg8ouruQ" comments="_jpLW4EMtEeye6rzg8ouruQ" targetConnectionVisual="_jpLW4UMtEeye6rzg8ouruQ" name="NoteLength">
+      <modelElement href="BellChoirLab2.uml#_jabJMEMtEeye6rzg8ouruQ"/>
+      <keywords xmi:id="_jpL9-kMtEeye6rzg8ouruQ" keyword="create"/>
+      <visibility xmi:id="_jpL9-0MtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpL9_EMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jpL9_UMtEeye6rzg8ouruQ">
+        <modelElement href="BellChoirLab2.uml#_jabwQkMtEeye6rzg8ouruQ"/>
+        <type xmi:id="_jpL9_kMtEeye6rzg8ouruQ" name="NoteLength">
+          <modelElement href="BellChoirLab2.uml#_jaYs8EMtEeye6rzg8ouruQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jpL9_0MtEeye6rzg8ouruQ" name="length">
+        <modelElement href="BellChoirLab2.uml#_jabJMUMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_jpL-AEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_jpL-AUMtEeye6rzg8ouruQ" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jpL-AkMtEeye6rzg8ouruQ" comments="_jpLW4kMtEeye6rzg8ouruQ" targetConnectionVisual="_jpLW40MtEeye6rzg8ouruQ" name="timeMs">
+      <modelElement href="BellChoirLab2.uml#_jabwQ0MtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpL-A0MtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpL-BEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jpL-BUMtEeye6rzg8ouruQ">
+        <modelElement href="BellChoirLab2.uml#_jacXUEMtEeye6rzg8ouruQ"/>
+        <type xmi:id="_jpL-BkMtEeye6rzg8ouruQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_jpL-B0MtEeye6rzg8ouruQ" name="WHOLE">
+      <modelElement href="BellChoirLab2.uml#_jaZUAkMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpL-CEMtEeye6rzg8ouruQ" name="HALF">
+      <modelElement href="BellChoirLab2.uml#_jaZ7EEMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpL-CUMtEeye6rzg8ouruQ" name="QUARTER">
+      <modelElement href="BellChoirLab2.uml#_jaZ7EkMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpL-CkMtEeye6rzg8ouruQ" name="EIGTH">
+      <modelElement href="BellChoirLab2.uml#_jaZ7FEMtEeye6rzg8ouruQ"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_jpUg0EMtEeye6rzg8ouruQ" name="Note">
+    <modelElement href="BellChoirLab2.uml#_jadlcEMtEeye6rzg8ouruQ"/>
+    <visualProperties xmi:id="_jpUg0UMtEeye6rzg8ouruQ" position="-831.0,-301.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_jpUg0kMtEeye6rzg8ouruQ" keyword="sameFile"/>
+    <visibility xmi:id="_jpUg00MtEeye6rzg8ouruQ" label="~"/>
+    <attributes xmi:id="_jpUg1EMtEeye6rzg8ouruQ" defaultValue="48 * 1024" name="SAMPLE_RATE" staticAttribute="true">
+      <modelElement href="BellChoirLab2.uml#_jb2FgEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpUg1UMtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpUg1kMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpUg10MtEeye6rzg8ouruQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpUg2EMtEeye6rzg8ouruQ" defaultValue="1" name="MEASURE_LENGTH_SEC" staticAttribute="true">
+      <modelElement href="BellChoirLab2.uml#_jb2skEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpUg2UMtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpUg2kMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpUg20MtEeye6rzg8ouruQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpUg3EMtEeye6rzg8ouruQ" defaultValue="(2.0d * Math.PI) / SAMPLE_RATE" name="step_alpha" staticAttribute="true">
+      <modelElement href="BellChoirLab2.uml#_jb3ToUMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpUg3UMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpUg3kMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpUg30MtEeye6rzg8ouruQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpUg4EMtEeye6rzg8ouruQ" defaultValue="440.0d" name="FREQUENCY_A_HZ">
+      <modelElement href="BellChoirLab2.uml#_jb36sUMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpUg4UMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jb4hwUMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpUg4kMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpUg40MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpUg5EMtEeye6rzg8ouruQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpUg5UMtEeye6rzg8ouruQ" defaultValue="127.0d" name="MAX_VOLUME">
+      <modelElement href="BellChoirLab2.uml#_jb5I0EMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpUg5kMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jb5v4EMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpUg50MtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpUg6EMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpUg6UMtEeye6rzg8ouruQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpUg6kMtEeye6rzg8ouruQ" defaultValue="new byte[MEASURE_LENGTH_SEC * SAMPLE_RATE]" name="sinSample">
+      <modelElement href="BellChoirLab2.uml#_jb5v4UMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpUg60MtEeye6rzg8ouruQ" name="Array">
+        <modelElement href="BellChoirLab2.uml#_jb6W8EMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jpUg7EMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jb6W8kMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpUg7UMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpUg7kMtEeye6rzg8ouruQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_jpUg70MtEeye6rzg8ouruQ" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jpUg8EMtEeye6rzg8ouruQ" comments="_jpSroEMtEeye6rzg8ouruQ" targetConnectionVisual="_jpTSsEMtEeye6rzg8ouruQ" name="Note">
+      <modelElement href="BellChoirLab2.uml#_jahP0EMtEeye6rzg8ouruQ"/>
+      <keywords xmi:id="_jpUg8UMtEeye6rzg8ouruQ" keyword="create"/>
+      <visibility xmi:id="_jpUg8kMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpUg80MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jpUg9EMtEeye6rzg8ouruQ">
+        <modelElement href="BellChoirLab2.uml#_jah24UMtEeye6rzg8ouruQ"/>
+        <type xmi:id="_jpUg9UMtEeye6rzg8ouruQ" name="Note">
+          <modelElement href="BellChoirLab2.uml#_jadlcEMtEeye6rzg8ouruQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jpUg9kMtEeye6rzg8ouruQ" comments="_jpTSsUMtEeye6rzg8ouruQ" targetConnectionVisual="_jpTSskMtEeye6rzg8ouruQ" name="sample">
+      <modelElement href="BellChoirLab2.uml#_jah24kMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpUg90MtEeye6rzg8ouruQ" name="Array">
+        <modelElement href="BellChoirLab2.uml#_jaid8EMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpUg-EMtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpUg-UMtEeye6rzg8ouruQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_jpUg-kMtEeye6rzg8ouruQ">
+        <modelElement href="BellChoirLab2.uml#_jah240MtEeye6rzg8ouruQ"/>
+        <type xmi:id="_jpUg-0MtEeye6rzg8ouruQ" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_jpUg_EMtEeye6rzg8ouruQ" name="REST">
+      <modelElement href="BellChoirLab2.uml#_jaeMgEMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUg_UMtEeye6rzg8ouruQ" name="A4">
+      <modelElement href="BellChoirLab2.uml#_jaeMgUMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUg_kMtEeye6rzg8ouruQ" name="A4S">
+      <modelElement href="BellChoirLab2.uml#_jaeMgkMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUg_0MtEeye6rzg8ouruQ" name="B4">
+      <modelElement href="BellChoirLab2.uml#_jaeMg0MtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhAEMtEeye6rzg8ouruQ" name="C4">
+      <modelElement href="BellChoirLab2.uml#_jaeMhEMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhAUMtEeye6rzg8ouruQ" name="C4S">
+      <modelElement href="BellChoirLab2.uml#_jaeMhUMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhAkMtEeye6rzg8ouruQ" name="D4">
+      <modelElement href="BellChoirLab2.uml#_jaezkEMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhA0MtEeye6rzg8ouruQ" name="D4S">
+      <modelElement href="BellChoirLab2.uml#_jaezkUMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhBEMtEeye6rzg8ouruQ" name="E4">
+      <modelElement href="BellChoirLab2.uml#_jaezkkMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhBUMtEeye6rzg8ouruQ" name="F4">
+      <modelElement href="BellChoirLab2.uml#_jaezk0MtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhBkMtEeye6rzg8ouruQ" name="F4S">
+      <modelElement href="BellChoirLab2.uml#_jaezlEMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhB0MtEeye6rzg8ouruQ" name="G4">
+      <modelElement href="BellChoirLab2.uml#_jafaoEMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhCEMtEeye6rzg8ouruQ" name="G4S">
+      <modelElement href="BellChoirLab2.uml#_jafaoUMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpUhCUMtEeye6rzg8ouruQ" name="A5">
+      <modelElement href="BellChoirLab2.uml#_jafaokMtEeye6rzg8ouruQ"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jph8MEMtEeye6rzg8ouruQ" name="Exception">
+    <modelElement href="BellChoirLab2.uml#_jbpRMEMtEeye6rzg8ouruQ"/>
+    <visualProperties xmi:id="_jph8MUMtEeye6rzg8ouruQ" position="847.0,142.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jph8MkMtEeye6rzg8ouruQ" name="Reference">
+      <modelElement href="BellChoirLab2.uml#_jbpRMUMtEeye6rzg8ouruQ"/>
+    </stereotypes>
+    <visibility xmi:id="_jph8M0MtEeye6rzg8ouruQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jpjKUEMtEeye6rzg8ouruQ" name="LineUnavailableException">
+    <modelElement href="BellChoirLab2.uml#_jbWWQUMtEeye6rzg8ouruQ"/>
+    <visualProperties xmi:id="_jpjKUUMtEeye6rzg8ouruQ" position="994.0,142.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jpjKUkMtEeye6rzg8ouruQ" name="Reference">
+      <modelElement href="BellChoirLab2.uml#_jbW9UEMtEeye6rzg8ouruQ"/>
+    </stereotypes>
+    <visibility xmi:id="_jpjKU0MtEeye6rzg8ouruQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jpoC2UMtEeye6rzg8ouruQ" comments="_jpk_gEMtEeye6rzg8ouruQ" targetConnectionVisual="_jpk_gUMtEeye6rzg8ouruQ" name="Player" associationsOut="_jpoC0EMtEeye6rzg8ouruQ">
+    <modelElement href="BellChoirLab2.uml#_jaGZEEMtEeye6rzg8ouruQ"/>
+    <visualProperties xmi:id="_jpoC2kMtEeye6rzg8ouruQ" position="1242.0,-103.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jpoC20MtEeye6rzg8ouruQ" label="+"/>
+    <attributes xmi:id="_jpoC3EMtEeye6rzg8ouruQ" defaultValue="5" name="NUM_TURNS" staticAttribute="true">
+      <modelElement href="BellChoirLab2.uml#_jbvX0EMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpoC3UMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpoC3kMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpoC30MtEeye6rzg8ouruQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpoC4EMtEeye6rzg8ouruQ" name="state">
+      <modelElement href="BellChoirLab2.uml#_jbv-4UMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpoC4UMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jbwl8EMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpoC4kMtEeye6rzg8ouruQ" label="~"/>
+      <cardinality xmi:id="_jpoC40MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpoC5EMtEeye6rzg8ouruQ" name="State">
+        <modelElement href="BellChoirLab2.uml#_jaL4oEMtEeye6rzg8ouruQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpoC5UMtEeye6rzg8ouruQ" name="myJob">
+      <modelElement href="BellChoirLab2.uml#_jbwl8UMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpoC5kMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jbxNAEMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpoC50MtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpoC6EMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpoC6UMtEeye6rzg8ouruQ" name="State">
+        <modelElement href="BellChoirLab2.uml#_jaL4oEMtEeye6rzg8ouruQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpoC6kMtEeye6rzg8ouruQ" name="t">
+      <modelElement href="BellChoirLab2.uml#_jbxNAUMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpoC60MtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jbxNAkMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpoC7EMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpoC7UMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpoC7kMtEeye6rzg8ouruQ" name="Thread">
+        <modelElement href="BellChoirLab2.uml#_jbjxoEMtEeye6rzg8ouruQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpoC70MtEeye6rzg8ouruQ" name="running">
+      <modelElement href="BellChoirLab2.uml#_jbx0EEMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpoC8EMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jbx0E0MtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpoC8UMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpoC8kMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpoC80MtEeye6rzg8ouruQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpoC9EMtEeye6rzg8ouruQ" name="myTurn">
+      <modelElement href="BellChoirLab2.uml#_jbx0FEMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpoC9UMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jbybIEMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpoC9kMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpoC90MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpoC-EMtEeye6rzg8ouruQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jpoC-UMtEeye6rzg8ouruQ" name="turnCount">
+      <modelElement href="BellChoirLab2.uml#_jbybIUMtEeye6rzg8ouruQ"/>
+      <stereotypes xmi:id="_jpoC-kMtEeye6rzg8ouruQ" name="LegacyStyledElement">
+        <modelElement href="BellChoirLab2.uml#_jbzCMEMtEeye6rzg8ouruQ"/>
+      </stereotypes>
+      <visibility xmi:id="_jpoC-0MtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpoC_EMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <type xmi:id="_jpoC_UMtEeye6rzg8ouruQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jpoC_kMtEeye6rzg8ouruQ" name="main" staticOperation="true">
+      <modelElement href="BellChoirLab2.uml#_jaNt0EMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpoC_0MtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpoDAEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jpoDAUMtEeye6rzg8ouruQ" name="args">
+        <modelElement href="BellChoirLab2.uml#_jaNt0UMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_jpoDAkMtEeye6rzg8ouruQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_jpoDA0MtEeye6rzg8ouruQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jpoDBEMtEeye6rzg8ouruQ" name="stopPlayer">
+      <modelElement href="BellChoirLab2.uml#_jaQxIEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpoDBUMtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpoDBkMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_jpoDB0MtEeye6rzg8ouruQ" name="giveTurn">
+      <modelElement href="BellChoirLab2.uml#_jaRYMEMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpoDCEMtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpoDCUMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_jpoDCkMtEeye6rzg8ouruQ" name="run">
+      <modelElement href="BellChoirLab2.uml#_jaRYMUMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpoDC0MtEeye6rzg8ouruQ" label="+"/>
+      <cardinality xmi:id="_jpoDDEMtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_jpoDDUMtEeye6rzg8ouruQ" name="doTurn">
+      <modelElement href="BellChoirLab2.uml#_jaRYMkMtEeye6rzg8ouruQ"/>
+      <visibility xmi:id="_jpoDDkMtEeye6rzg8ouruQ" label="-"/>
+      <cardinality xmi:id="_jpoDD0MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_jpoDEEMtEeye6rzg8ouruQ" name="Player">
+      <modelElement href="BellChoirLab2.uml#_jbNMUEMtEeye6rzg8ouruQ"/>
+      <keywords xmi:id="_jpoDEUMtEeye6rzg8ouruQ" keyword="create"/>
+      <visibility xmi:id="_jpoDEkMtEeye6rzg8ouruQ" label="~"/>
+      <cardinality xmi:id="_jpoDE0MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jpoDFEMtEeye6rzg8ouruQ">
+        <modelElement href="BellChoirLab2.uml#_jbNzYEMtEeye6rzg8ouruQ"/>
+        <type xmi:id="_jpoDFUMtEeye6rzg8ouruQ" name="Player">
+          <modelElement href="BellChoirLab2.uml#_jaGZEEMtEeye6rzg8ouruQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jpoDFkMtEeye6rzg8ouruQ" name="myJob">
+        <modelElement href="BellChoirLab2.uml#_jbNMUUMtEeye6rzg8ouruQ"/>
+        <cardinality xmi:id="_jpoDF0MtEeye6rzg8ouruQ" label="1" max="1" min="1"/>
+        <type xmi:id="_jpoDGEMtEeye6rzg8ouruQ" name="State">
+          <modelElement href="BellChoirLab2.uml#_jaL4oEMtEeye6rzg8ouruQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_jpuwgEMtEeye6rzg8ouruQ" name="State">
+    <modelElement href="BellChoirLab2.uml#_jaL4oEMtEeye6rzg8ouruQ"/>
+    <visualProperties xmi:id="_jpuwgUMtEeye6rzg8ouruQ" position="-993.0,80.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jpuwgkMtEeye6rzg8ouruQ" label="-"/>
+    <literals xmi:id="_jpuwg0MtEeye6rzg8ouruQ" name="A">
+      <modelElement href="BellChoirLab2.uml#_jaMfsEMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpuwhEMtEeye6rzg8ouruQ" name="B">
+      <modelElement href="BellChoirLab2.uml#_jaMfsUMtEeye6rzg8ouruQ"/>
+    </literals>
+    <literals xmi:id="_jpuwhUMtEeye6rzg8ouruQ" name="C">
+      <modelElement href="BellChoirLab2.uml#_jaMfskMtEeye6rzg8ouruQ"/>
+    </literals>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -210,14 +210,16 @@ public class Tone
 	 * Plays all the notes to create a song.
 	 */
 	void playSong(List<BellNote> song) throws LineUnavailableException
-	{
+	{	
 		try (final SourceDataLine line = AudioSystem.getSourceDataLine(af))
 		{
 			line.open();
 			line.start();
 
 			for (BellNote bn : song)
-			{
+			{	
+				
+				
 				playNote(line, bn);
 			}
 			line.drain();

@@ -4,7 +4,7 @@
  * 
  *         Player class that was provided by Professor Nate Williams through
  *         Moodle.
- *         creates players that will play notes in in the Tone Class..
+ *         creates players that will play notes in in the Tone Class.
  */
 public class Player implements Runnable
 {
