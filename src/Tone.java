@@ -14,8 +14,10 @@ import javax.sound.sampled.SourceDataLine;
 /**
  * @author Jason Miner
  * 
- * plays song by 
- *
+ *         Tone class that was provided by Professor Nate Williams through
+ *         Moodle. 
+ *         Plays songs from text files though the use of ant arguments.
+ * 
  */
 public class Tone
 {
@@ -28,7 +30,7 @@ public class Tone
 		final List<BellNote> song = new ArrayList<>();
 		final File file = new File(filename);
 		Boolean error = false;
-		
+
 		if (file.exists())
 		{
 			try (FileReader fileReader = new FileReader(file); BufferedReader br = new BufferedReader(fileReader))
@@ -36,7 +38,7 @@ public class Tone
 				String line;
 				NoteLength nl = null;
 				Note n = null;
-				
+
 				if (br.readLine() == null)
 				{
 					System.err.println("Error: File is Blank!");
@@ -171,7 +173,7 @@ public class Tone
 	 */
 	public static void main(String[] args) throws Exception
 	{
-		//System.out.println("Main running");
+		// System.out.println("Main running");
 		final AudioFormat af = new AudioFormat(Note.SAMPLE_RATE, 8, 1, true, false);
 		Tone t = new Tone(af);
 		List<BellNote> song = null;

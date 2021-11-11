@@ -2,9 +2,9 @@
 /**
  * @author Jason Miner
  * 
- * Player class that was provided by Professor Nate Williams through Moodle.
- * 
- * creates a player that plays notes. 
+ *         Player class that was provided by Professor Nate Williams through
+ *         Moodle.
+ *         creates players that will play notes in in the Tone Class..
  */
 public class Player implements Runnable
 {
@@ -16,7 +16,6 @@ public class Player implements Runnable
 	}
 
 	State state;
-
 
 	public static void main(String[] args)
 	{
@@ -48,9 +47,6 @@ public class Player implements Runnable
 	private boolean myTurn;
 	private int turnCount;
 
-	/**
-	 * @param myJob
-	 */
 	Player(State myJob)
 	{
 		this.myJob = myJob;
@@ -59,17 +55,11 @@ public class Player implements Runnable
 		t.start();
 	}
 
-	/**
-	 * 
-	 */
 	public void stopPlayer()
 	{
 		running = false;
 	}
 
-	/**
-	 * 
-	 */
 	public void giveTurn()
 	{
 		synchronized (this)
@@ -77,8 +67,7 @@ public class Player implements Runnable
 			if (myTurn)
 			{
 				throw new IllegalStateException(
-						"Attempt to give a turn to a player who's "
-						+ "hasn't completed the current turn");
+						"Attempt to give a turn to a player who's " + "hasn't completed the current turn");
 			}
 			myTurn = true;
 			notify();
@@ -95,9 +84,6 @@ public class Player implements Runnable
 		}
 	}
 
-	/**
-	 *
-	 */
 	public void run()
 	{
 		running = true;
@@ -129,9 +115,6 @@ public class Player implements Runnable
 		}
 	}
 
-	/**
-	 * 
-	 */
 	private void doTurn()
 	{
 		System.out.println("Player[" + myJob.name() + "] taking turn " + turnCount);
